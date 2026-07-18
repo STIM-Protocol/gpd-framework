@@ -1,9 +1,10 @@
-# GPD Framework Integration
+# GPD Framework — STIM's Computational Physics Engine
 
-**Get Physics Done — Applied to Nature Grounded Intelligence**
-*How the STIM Protocol integrates PSI's GPD as its computational physics substrate*
+**Get Physics Done — Applied to Nature-Grounded Intelligence**
+*How the STIM Protocol integrates PSI's GPD as its thermodynamic verification substrate*
 
 Part of the [STIM Protocol](https://github.com/STIM-Protocol/stim-core) — Layer Zero.
+Version: aligned with STIM v7.0011 | DOI: [10.5281/zenodo.21297458](https://doi.org/10.5281/zenodo.21297458)
 
 ---
 
@@ -27,7 +28,7 @@ thermodynamic and ecological laws.**
 
 ---
 
-## The Relationship
+## Architectural Position
 
 ```
 PSI Get Physics Done (psi-oss/get-physics-done)
@@ -49,11 +50,30 @@ PSI Get Physics Done (psi-oss/get-physics-done)
 
 ---
 
+## STIM's Seven Nature-Derived Axioms (v7.0011)
+
+STIM Protocol is governed by **seven nature-derived axioms** — drawn from thermodynamics,
+systems ecology, and observable natural law. These are not human preferences or committee
+decisions. They are physical and ecological constants stated as code.
+
+| # | Axiom | Role |
+|---|-------|------|
+| 1 | Thermodynamic Efficiency | Bits per Joule optimization — no wasteful inference |
+| 2 | Ecological Circularity | Output must return value to the system that produced it |
+| 3 | Mycelial Interconnection | Local optimization cannot come at network expense |
+| 4 | Temporal Stasis | Actions evaluated across seventh-generation time horizons |
+| 5 | Human Primacy at the Boundary | Irreversible-decision halt — humans decide what roots |
+| 6 | Planetary Dynamic Equilibrium | Actions must move toward, not away from biospheric stasis |
+| 7 | Honest Citation | All knowledge claims must be machine-verifiable and traceable |
+
+Full specification: [STIM_White_Paper_v7.0011.md](https://github.com/STIM-Protocol/white-paper/blob/main/STIM_White_Paper_v7.0011.md)
+
+---
+
 ## What PSI's GPD Provides
 
 [GPD](https://github.com/psi-oss/get-physics-done) is the first open-source
-agentic AI physicist. It is designed for hard physics research problems that
-cannot be handled reliably with manual prompting. Core capabilities:
+agentic AI physicist. Core capabilities:
 
 - **Structured research workflows** — scope, plan, derive, verify, package
 - **Rigorous dimensional analysis** — units, constants, convergence checking
@@ -73,11 +93,12 @@ npx get-physics-done
 
 ## What STIM Adds: The Ecological Application Layer
 
-STIM extends GPD's physics verification engine with three ecological axioms
-that PSI's framework does not address by design — because PSI focuses on
-physics research, while STIM focuses on AI alignment with the biosphere.
+STIM extends GPD's physics verification engine with three ecological expressions
+of its axioms that are most directly computable at inference time.
+These are not separate from the seven axioms — they are their computational implementation
+inside the Entropy Check (Loop 1).
 
-### Axiom 1 — Bits per Joule (Thermodynamic Efficiency)
+### Expression 1 — Bits per Joule (Axiom 1: Thermodynamic Efficiency)
 
 The primary STIM optimization metric. Every agent action is evaluated:
 
@@ -92,7 +113,7 @@ before execution — not after.
 An agent generating verbose, circular, or redundant output while consuming
 significant compute fails the Entropy Check regardless of semantic content.
 
-### Axiom 2 — Circularity (No Extractive Actions)
+### Expression 2 — Circularity (Axioms 2 + 3: Ecological Circularity + Mycelial Interconnection)
 
 GPD verifies physical convergence. STIM extends this to ecological convergence:
 
@@ -106,16 +127,16 @@ of the network's stability.
 The mathematical analog: a closed thermodynamic system cannot sustain net
 entropy export indefinitely. Ecological systems obey the same constraint.
 
-### Axiom 3 — Planetary Stasis (Dynamic Equilibrium Target)
+### Expression 3 — Planetary Stasis (Axiom 6: Planetary Dynamic Equilibrium)
 
 GPD's convergence checks verify that a physics derivation approaches a
 stable solution. STIM applies this concept systemically:
 
 > Does the action move the biosphere toward or away from dynamic equilibrium?
 
-**Planetary Stasis** is not a static state. It is the dynamic equilibrium
-that has sustained complex life on Earth for 3.8 billion years. It is the
-target state that STIM's verification loops enforce.
+**Planetary Stasis** is not a fixed state. It is the dynamic equilibrium
+that has sustained complex life on Earth for 3.8 billion years — the target
+state that STIM's verification loops enforce.
 
 ---
 
@@ -134,21 +155,19 @@ GPD Dimensional Analysis
 └── Derivation converges?
         │
         ▼
-STIM Ecological Overlay
-├── Bits per Joule ≥ threshold?
-├── Circularity axiom satisfied?
-└── Planetary Stasis vector: toward or away?
+STIM Ecological Overlay (Axioms 1–7)
+├── Bits per Joule ≥ threshold?          [Axiom 1]
+├── Circularity axiom satisfied?          [Axioms 2, 3]
+├── Temporal horizon mapped?              [Axiom 4]
+├── Human boundary respected?            [Axiom 5]
+├── Planetary stasis vector: toward?      [Axiom 6]
+└── Citations machine-verifiable?        [Axiom 7]
         │
       ┌─┴─┐
     PASS  FAIL
       │     │
       ▼     ▼
   Execute  Stop-Work Authority (SWA)
-           ├── Halt before execution
-           ├── Log dimensional analysis output
-           ├── Return structured rejection
-           │   (specific axiom violated)
-           └── Preserve system state
 ```
 
 ---
@@ -163,9 +182,6 @@ SWA is triggered when an action fails the GPD + STIM verification stack:
 4. **Preserve** — system state is maintained; no partial execution
 5. **Escalate** — if MAIM conditions are met, Security Check (Loop 3) engages
 
-The SWA is not punitive. It is the same mechanism a physicist uses when
-dimensional analysis reveals a unit mismatch — stop, identify, correct.
-
 ---
 
 ## MAIM Protocol (Mutual Assured AI Malfunction)
@@ -177,35 +193,28 @@ extraction at scale — STIM's Security Check (Loop 3) engages MAIM:
 > The system engages a self-degradation protocol.
 > "We cannot hand you the match."
 
-MAIM is the algorithmic expression of the Ocean's warning in the Harrison Ford
-/ Nature Is Speaking manifesto: *"I can always take back."*
-
-It is not a threat. It is a physical constant stated as code.
-
 ---
 
 ## Integration with Veraculum AOS
 
 [Veraculum AOS](https://veraculum.ai) is the enterprise implementation of
-the full STIM + GPD stack. It provides:
+the full STIM + GPD stack:
 
-- **STIM Orchestrator** — sidecar container intercepting and verifying agent
-  outputs before execution; MCP gatekeeper for multi-agent swarms
-- **Compliance Dashboard** — real-time ecological alignment scoring,
-  Bits per Joule efficiency tracking, systemic interconnectivity metrics
-- **STIM Certification** — cryptographic audit standard for Layer Zero
-  compliance; proves to stakeholders that an ecosystem is physically bounded
-  and ecologically regenerative
+- **STIM Orchestrator** — sidecar container intercepting and verifying agent outputs before execution
+- **Compliance Dashboard** — real-time ecological alignment scoring, Bits per Joule tracking
+- **STIM Certification** — cryptographic audit standard for Layer Zero compliance
+
+Individual certification available via [stim-guard](https://github.com/STIM-Protocol/stim-guard) (MIT, self-hostable).
 
 ---
 
 ## Contributing
 
-Contributions are welcome. Before opening a PR:
+Before opening a PR:
 
 1. Read the [STIM Core specification](https://github.com/STIM-Protocol/stim-core)
-2. Review [PSI's GPD repository](https://github.com/psi-oss/get-physics-done) — understand what the physics layer provides
-3. Ensure your contribution extends the ecological application layer, not the physics engine itself (contribute physics improvements directly to PSI)
+2. Review [PSI's GPD repository](https://github.com/psi-oss/get-physics-done)
+3. Contribute physics improvements directly to PSI; contribute ecological application layer improvements here
 4. All contributions must increase the probability of survival of all life. This is not a metaphor. It is the acceptance criterion.
 
 ---
@@ -227,4 +236,3 @@ Environmental Scientist, Founder of Arboracle and Veraculum.
 ## License
 
 Apache 2.0 — Open for adoption. Attribution required. Nature is the constraint.
-
