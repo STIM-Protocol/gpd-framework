@@ -42,7 +42,7 @@ PSI Get Physics Done (psi-oss/get-physics-done)
          │  Bits per Joule optimization, Stop-Work Authority triggers,
          │  ecological circularity enforcement
          │
-         └──► Veraculum AOS — Enterprise Layer Zero orchestration
+         └──► Arboracle AOS — Enterprise Layer Zero orchestration
                   │
                   └──► Arboracle — Green industry STIM-native implementation
 ```
@@ -184,9 +184,9 @@ It is not a threat. It is a physical constant stated as code.
 
 ---
 
-## Integration with Veraculum AOS
+## Integration with Arboracle AOS
 
-[Veraculum AOS](https://veraculum.ai) is the enterprise implementation of
+[Arboracle AOS](https://arboracle.app) is the enterprise implementation of
 the full STIM + GPD stack. It provides:
 
 - **STIM Orchestrator** — sidecar container intercepting and verifying agent
